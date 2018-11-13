@@ -24,22 +24,15 @@ There's a strong need to determine which instance belongs to what uninstall even
 |DeviceB |uninstall|Dec 5, 2018 11:45:00|
 |DeviceC |uninstall|Dec 6, 2017 12:45:00|
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
 *Instance information*
 
-|Instance|DeviceId|InstanceFirstSeenDateTime|
-|---|---|
-|InstanceA1|DeviceA|Nov 1, 2018 13:45:00|
-|InstanceA2|DeviceA|Dec 2, 2018 14:45:00|
-|InstanceB1|DeviceB|Nov 1, 2018 15:45:00|
-|InstanceB2|DeviceB|Dec 4, 2018 16:45:00|
-|InstanceCX|DeviceC|Dec 4, 2018 00:00:00|
+|Instance  |DeviceId|InstanceFirstSeenDateTime|
+|----------|--------|-------------------------|
+|InstanceA1|DeviceA |Nov 1, 2018 13:45:00     |
+|InstanceA2|DeviceA |Dec 2, 2018 14:45:00     |
+|InstanceB1|DeviceB |Nov 1, 2018 15:45:00     |
+|InstanceB2|DeviceB |Dec 4, 2018 16:45:00     |
+|InstanceCX|DeviceC |Dec 4, 2018 00:00:00     |
 
 
 The goal here is to create a enriched, and clean Uninstalls table in some database so that other people can query this information. **Please answer the following**:
@@ -53,10 +46,10 @@ The goal here is to create a enriched, and clean Uninstalls table in some databa
 
 Desired final table:
 
-|Instance|DeviceId|EventName|InstanceFirstSeenDateTime|EventDateTime|
-|---|---|---|
-|InstanceA2|DeviceA|uninstall|Dec 2, 2018 14:45:00|Dec 4, 2018 10:45:00|
-|InstanceB2|DeviceB|uninstall|Dec 4, 2018 16:45:00|Dec 5, 2018 11:45:00|
+|Instance  |DeviceId|EventName|InstanceFirstSeenDateTime|EventDateTime       |
+|----------|--------|---------|-------------------------|--------------------|
+|InstanceA2|DeviceA |uninstall|Dec 2, 2018 14:45:00     |Dec 4, 2018 10:45:00|
+|InstanceB2|DeviceB |uninstall|Dec 4, 2018 16:45:00     |Dec 5, 2018 11:45:00|
 
 (DeviceC is up to you to include it or not)
 
