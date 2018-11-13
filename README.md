@@ -19,7 +19,7 @@ There's a strong need to determine which instance belongs to what uninstall even
 *Uninstall event information*
 
 |DeviceId|EventName|EventDateTime|
-|-|-|
+|---|---|
 |DeviceA|uninstall|Dec 4, 2018 10:45:00|
 |DeviceB|uninstall|Dec 5, 2018 11:45:00|
 |DeviceC|uninstall|Dec 6, 2017 12:45:00|
@@ -28,7 +28,7 @@ There's a strong need to determine which instance belongs to what uninstall even
 *Instance information*
 
 |Instance|DeviceId|InstanceFirstSeenDateTime|
-|-|-|
+|---|---|
 |InstanceA1|DeviceA|Nov 1, 2018 13:45:00|
 |InstanceA2|DeviceA|Dec 2, 2018 14:45:00|
 |InstanceB1|DeviceB|Nov 1, 2018 15:45:00|
@@ -48,7 +48,7 @@ The goal here is to create a enriched, and clean Uninstalls table in some databa
 Desired final table:
 
 |Instance|DeviceId|EventName|InstanceFirstSeenDateTime|EventDateTime|
-|-|-|-|
+|---|---|---|
 |InstanceA2|DeviceA|uninstall|Dec 2, 2018 14:45:00|Dec 4, 2018 10:45:00|
 |InstanceB2|DeviceB|uninstall|Dec 4, 2018 16:45:00|Dec 5, 2018 11:45:00|
 
