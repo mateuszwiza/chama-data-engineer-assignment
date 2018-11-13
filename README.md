@@ -24,6 +24,12 @@ There's a strong need to determine which instance belongs to what uninstall even
 |DeviceB|uninstall|Dec 5, 2018 11:45:00|
 |DeviceC|uninstall|Dec 6, 2017 12:45:00|
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 
 *Instance information*
 
