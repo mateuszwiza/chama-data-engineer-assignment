@@ -68,6 +68,7 @@ In your solution, please **assume that the files have more than 1GB each**.
 An external provider wants to send us information about popular opinion about Chama company and App. They offer two options to send the information. 
 One option is to POST the information, in a URL endpoint that we own, every time that something happens, near real time.
 The second option is for us to download information in bulk, CSV format, once a day. 
+This information needs to arrive to our data warehouse. Please consider that you might make mistakes while parsing the information, you need to be able to re-process past data.
 **Please answer the following in short paragraphs**:
  - What option would you choose?
  - What are the advantages of each scenario?
