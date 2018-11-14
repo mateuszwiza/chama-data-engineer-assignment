@@ -47,7 +47,7 @@ For the reasons explained previously, it's important to determine for long the A
 (DeviceC is up to you to include it or not)
 
 #### Exercice 1.1: Theory
-The goal here is to create a enriched, clean and integrity checked Uninstalls table, as you see above, in some database so that other people can query this information. **Please answer the following questions in short paragraphs**:
+The goal here is to create a enriched, clean and integrity checked Uninstalls table (**tf**), in some database so that other people can query this information. **Please answer the following questions in short paragraphs**:
  - Assuming that the raw information is available in CSV files, the size of those files define the shape of your solution. Please explain why and mention the different options that you would contemplate.
  - As you noticed, the date format in the tables is not the best to be parsed into a datetime column, how can you surpass this issue?
  - The DeviceC as uninstall date prior to what we see in [InstanceFirstSeenDateTime].
