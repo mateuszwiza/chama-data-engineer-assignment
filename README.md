@@ -1,4 +1,4 @@
-# Junior Data Engineer Assignment
+# Data Engineer Assignment
 Assignment for junior data engineer position
 
 ## Introduction
