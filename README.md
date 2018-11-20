@@ -1,5 +1,5 @@
 # Data Engineer Assignment
-Assignment for junior data engineer position
+Assignment for data engineer position
 
 ## Introduction
 Chama is relatively new, modern company, with an [IOS App](https://itunes.apple.com/BR/app/id1228143385?mt=8) and [Android App](https://play.google.com/store/apps/details?id=br.project.pine). 
