@@ -60,7 +60,7 @@ The goal here is to create a enriched, clean and integrity checked Uninstalls ta
 #### Exercise 1.2: Practice
 
 Using a database of your choice, create the table **tf** when your starting points are the files [Instances.csv](Instances.csv) and [UninstallEvents.csv](UninstallEvents.csv).
-In your solution, please **assume that the files are larger than 1GB each**.
+In your solution, please **assume that the files are larger than 1GB each**. Any code that you need to write, preferably use c#.
 
 -----
 
