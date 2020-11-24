@@ -47,15 +47,15 @@ Por motivos mencionados anteriormente, é importante determinar por quanto tempo
 
 #### Exercício 1.1: Teoria
 O objectivo é criar uma tabela de desinstalações enriquecida, limpa e integra tal como está acima, numa base de dados qualquer para que outros possam aceder a esta informação. **Por favor responda às questões num pequeno parágrafo**
- - Assumindo que a informação está disponível em ficheiros CSV, o tamanho desses ficheiros pode definir a como o trabalho vai ser executado. Por favor explique as diferentes opções que contemplaria.
+ - Assumindo que a informação está disponível em arquivos CSV, o tamanho desses arquivos pode definir a como o trabalho vai ser executado. Por favor explique as diferentes opções que contemplaria.
  - Como reparou, a data não tem o melhor formato para ser _parsed_ como tipo _datetime_, como pode ultrapassar este problema?
  - O DeviceC tem data de desinstalação anterior à data que vemos no [InstanceFirstSeenDateTime].
    - Qual pode ser a causa desta situação?
    - Você incluiria o DeviceC na tabela final de desinstalações? Porquê?
 
 #### Exercício 1.2: Prática
-Usando uma base de dados da sua escolha, crie a tabela **tf** onde o seu ponto de partida são os ficheiros [Instances.csv](Instances.csv) e [UninstallEvents.csv](UninstallEvents.csv).
-Por favor, na sua solução, **assuma que os ficheiros têm mais do que 1GB**
+Usando uma base de dados da sua escolha, crie a tabela **tf** onde o seu ponto de partida são os arquivos [Instances.csv](Instances.csv) e [UninstallEvents.csv](UninstallEvents.csv).
+Por favor, na sua solução, **assuma que os arquivos têm mais do que 1GB**
 
 -----
 
