@@ -2,8 +2,8 @@
 
 ## Introdução
 A Chama é uma empresa moderna que tem como base do seu negócio apps no [IOS](https://itunes.apple.com/BR/app/id1228143385?mt=8), [Android](https://play.google.com/store/apps/details?id=br.project.pine) e recentemente e fase de experimentação, a versão [web](https://app.chama.com.br/offer?lat=-23.5854852&lon=-46.6790965&houseNumber=940&streetName=Rua%2520Joaquim%2520Floriano&subLocality=Itaim%2520Bibi&postalCode=04534-004&adminArea=S%25C3%25A3o%2520Paulo&subAdminArea=S%25C3%25A3o%2520Paulo).
-Esta realidade obriga-nos a fazer um esforço especial para colectar toda a informação possível e fazer com que esteja disponível para toda a empresa.
-Parte da informação é gerada pelas nossas apps e o nosso backend. Outro tipo de informação vem de fontes como a Google Play Store que nos traz informação bastante útil relativamente à app performance e classificação por parte dos usuários.
+Esta realidade obriga-nos a fazer um esforço especial para coletar todas as informações possíveis e fazer com que esteja disponível para toda a empresa.
+Parte da informação é gerada pelas nossas apps e o nosso backend. Outro tipo de informação vem de fontes como a Google Play Store que nos traz informações bastante úteis em relação à app performance e classificação por parte dos usuários.
 Esta empresa é muito _data-driven_ e, como tal, as decisões são tomadas com base nas métricas apropriadas. A qualidade dos dados é uma responsabilidade de todas as pessoas envolvidas.
 
 -----
