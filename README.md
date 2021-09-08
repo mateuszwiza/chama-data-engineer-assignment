@@ -74,3 +74,51 @@ This information needs to arrive in our data warehouse. Please consider that you
  - What are the advantages of each scenario?
 
 Using [draw.io](https://www.draw.io/) or similar, please design a detailed flow that describes the option that you preferred. Please mention the technologies that you would choose for the different steps.
+
+-----
+
+### Exercise 3: Data Trasnformation
+Some event data come as jsons and need some transformation to be structured to tables. Convert the case.json file present in this repository to 3 csv files, using the programming language of your choice, with the following rules:
+
+CuratedOfferOptions.csv
+```
+CurationProvider: in quotes
+DynamicPriceProvider: in quotes
+OfferId: in quotes
+DealerId: in quotes
+UniqueOptionId: in quotes
+OptionId: in quotes
+IsMobileDealer: without quotes
+IsOpen: without quotes
+Eta: in quotes
+ChamaScore: without quotes
+ProductBrand: in quotes
+IsWinner: without quotes
+MinimumPrice: without quotes
+MaximumPrice: without quotes
+DynamicPrice: without quotes
+FinalPrice: without quotes
+DefeatPrimaryReason: in quotes
+DefeatReasons: in quotes
+EnqueuedTimeSP: DD/MM/YYYY (converted to brasilia time - UTC-3)
+```
+
+DynamicPriceOption.csv
+```
+Provider: in quotes
+OfferId: in quotes
+UniqueOptionId: in quotes
+BestPrice: without quotes
+EnqueuedTimeSP: DD/MM/YYYY (converted to brasilia time - UTC-3)
+```
+
+DynamicPriceRange.csv
+```
+Provider: in quotes
+OfferId: in quotes
+MinGlobal: without quotes
+MinRecommended: without quotes
+MaxRecommended: without quotes
+DifferenceMinRecommendMinTheory: without quotes
+EnqueuedTimeSP: DD/MM/YYYY (converted to brasilia time - UTC-3)
+```
