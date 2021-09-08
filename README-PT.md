@@ -68,3 +68,51 @@ A segunda opção é a Chama fazer _download_ da informação em _bulk_, em form
  - Quais são as vantagens de cada uma das opções?
 
 Usando o [draw.io](https://www.draw.io/) ou semelhante, por favor desenhe um _flow_ detalhado descrevendo a solução que prefere na importação para a base de dados. Por favor mencione as tecnologias que usaria nos diferentes passos.
+
+-----
+
+### Exercício 3: Transformação de dados
+Alguns dados de eventos chegam via json e precisam ser estruturados para tabelas. Converta o arquivo case.json presente neste repositório para 3 arquivos csv, usando a linguagem de programação que preferir, com as seguintes regras:
+
+CuratedOfferOptions.csv
+```
+CurationProvider: entre aspas
+DynamicPriceProvider: entre aspas
+OfferId: entre aspas
+DealerId: entre aspas
+UniqueOptionId: entre aspas
+OptionId: entre aspas
+IsMobileDealer: sem aspas
+IsOpen: sem aspas
+Eta: entre aspas
+ChamaScore: sem aspas
+ProductBrand: entre aspas
+IsWinner: sem aspas
+MinimumPrice: sem aspas
+MaximumPrice: sem aspas
+DynamicPrice: sem aspas
+FinalPrice: sem aspas
+DefeatPrimaryReason: entre aspas
+DefeatReasons: entre aspas
+EnqueuedTimeSP: DD/MM/YYYY (convertido para horário de brasília - UTC-3)
+```
+
+DynamicPriceOption.csv
+```
+Provider: entre aspas
+OfferId: entre aspas
+UniqueOptionId: entre aspas
+BestPrice: sem aspas
+EnqueuedTimeSP: DD/MM/YYYY (convertido para horário de brasília - UTC-3)
+```
+
+DynamicPriceRange.csv
+```
+Provider: entre aspas
+OfferId: entre aspas
+MinGlobal: sem aspas
+MinRecommended: sem aspas
+MaxRecommended: sem aspas
+DifferenceMinRecommendMinTheory: sem aspas
+EnqueuedTimeSP: DD/MM/YYYY (convertido para horário de brasília - UTC-3)
+```
